@@ -1,5 +1,13 @@
 window.addEventListener("load", (event) => {
     const dictURL = "https://raw.githubusercontent.com/pagopa/status.pagopa.gov.it/main/dict.json";
+    const monthList = ".month .month-title";
+
+    function translateMonth(text, year) {
+        const ts = Date.parse(text);
+        const options = year ? { month: "long", year: "numeric"} : { month: "long"};
+        const month = Intl.DateTimeFormat("it-IT", options).format(ts);
+        return month;
+    }
 
     function translateDateList() {
         const days = document.querySelectorAll(".status-day .date");
@@ -43,5 +51,12 @@ window.addEventListener("load", (event) => {
     window.monthStrings = ["Gen", "Feb", "Mar", "Apr", "Mag", "Giu", "Lug", "Ago", "Set", "Ott", "Nov", "Dic"];
     // translate date in list
     translateDateList();
+
+    // translate history months
+    const monthsInListPage = document.querySelectorAll(monthList);
+    monthsInListPage.forEach( el => {
+        const elText = el.textContent;
+        el.innerHTML = translateMonth(elText, true);
+    });
 
 });
