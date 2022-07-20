@@ -39,5 +39,9 @@
     "selector": "#past-incidents",
     "string": "Disservizi passati",
     "replaceString": "Past Incidents"
+  },
+  {
+    "selector": "a[href='/history']",
+    "string": "Visualizza lo storico"
   }
 ]
