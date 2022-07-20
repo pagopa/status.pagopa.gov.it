@@ -66,7 +66,8 @@
   },
   {
     "selector": ".no-outages-msg",
-    "string": "Nessun disservizio registrato in questo giorno."
+    "string": "Nessun disservizio registrato in questo giorno.",
+    "replaceString": "No downtime recorded on this day."
   },
   {
     "selector": ".no-data-msg",
