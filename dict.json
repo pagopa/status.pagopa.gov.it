@@ -109,22 +109,22 @@
     "replaceString": "No incidents or maintenance related to this downtime."
   },
   {
-    "selector": ".update > strong",
+    "selector": ".update strong",
     "string": "Aggiornamento",
     "replaceString": "Update"
   },
   {
-    "selector": ".update > strong",
+    "selector": ".update strong",
     "string": "Monitoraggio",
     "replaceString": "Monitoring"
   },
   {
-    "selector": ".update > strong",
+    "selector": ".update strong",
     "string": "Identificato",
     "replaceString": "Identified"
   },
   {
-    "selector": ".update > strong",
+    "selector": ".update strong",
     "string": "Risolto",
     "replaceString": "Resolved"
   }
