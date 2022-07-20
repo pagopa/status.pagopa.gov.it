@@ -1,7 +1,5 @@
 (function() {
     const dictURL = "https://raw.githubusercontent.com/pagopa/status.pagopa.gov.it/main/dict.json";
-    // OVERRIDE THE MONTHS DICT
-    window.monthStrings = ["Gen", "Feb", "Mar", "Apr", "Mag", "Giu", "Lug", "Ago", "Set", "Ott", "Nov", "Dic"];
 
     function translateDateList() {
         const days = document.querySelectorAll(".status-day .date");
@@ -41,7 +39,11 @@
     })
     .catch( error => console.log("FAIL TO LOAD DICT") );
 
-    // translate date in list
-    translateDateList();
+    window.addEventListener("load", (event) => {
+        // OVERRIDE THE MONTHS DICT
+        window.monthStrings = ["Gen", "Feb", "Mar", "Apr", "Mag", "Giu", "Lug", "Ago", "Set", "Ott", "Nov", "Dic"];
+        // translate date in list
+        translateDateList();
+    });
 
 })();

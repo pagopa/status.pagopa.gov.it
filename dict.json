@@ -43,5 +43,15 @@
   {
     "selector": "a[href='/history']",
     "string": "Visualizza lo storico"
+  },
+  {
+    "selector": ".status-day p",
+    "string": "Nessun incidente oggi.",
+    "replaceString": "No incidents reported today."
+  },
+  {
+    "selector": ".status-day p",
+    "string": "Nessun incidente.",
+    "replaceString": "No incidents reported."
   }
 ]
