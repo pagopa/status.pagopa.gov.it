@@ -164,5 +164,10 @@
     "selector": ".page-footer a[href='/']",
     "string": "Stato attuale",
     "replaceString": "Current Status"
+  },
+  {
+    "selector": ".incident-list span",
+    "string": "Nessun disservizio registrato durante questo mese",
+    "replaceString": "No incidents reported for this month."
   }
 ]
