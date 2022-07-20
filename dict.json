@@ -140,7 +140,7 @@
   },
   {
     "selector": ".update strong",
-    "string": "In analisi",
+    "string": "Analisi",
     "replaceString": "Investigating"
   },
   {
@@ -151,5 +151,18 @@
   {
     "selector": ".scheduled-maintenances-container .font-largest",
     "string": "Manutenzione programmata"
+  },
+  {
+    "selector": ".history-nav a[href*='history']",
+    "string": "Disservizi"
+  },
+  {
+    "selector": ".history-nav a[href*='uptime']",
+    "string": "Attività"
+  },
+  {
+    "selector": ".page-footer a[href='/']",
+    "string": "Stato attuale",
+    "replaceString": "Current Status"
   }
 ]
