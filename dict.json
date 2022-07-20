@@ -53,5 +53,42 @@
     "selector": ".status-day p",
     "string": "Nessun incidente.",
     "replaceString": "No incidents reported."
+  },
+  {
+    "selector": ".outage-field.major .label",
+    "string": "Fuori servizio",
+    "replaceString": "Major outage"
+  },
+  {
+    "selector": ".outage-field.partial .label",
+    "string": "Interruzione parziale",
+    "replaceString": "Partial outage"
+  },
+  {
+    "selector": ".no-outages-msg",
+    "string": "No downtime recorded on this day."
+  },
+  {
+    "selector": ".no-data-msg",
+    "string": "Nessun dato per questo giorno."
+  },
+  {
+    "selector": "#major-outage-group-count .count",
+    "string": "è fuori servizio",
+    "replaceString": " had a major outage."
+  },
+  {
+    "selector": "#partial-outage-group-count .count",
+    "string": " è parzialmente fuori servizio",
+    "replaceString": " had a partial outage."
+  },
+  {
+    "selector": "#related-event-header",
+    "string": "Collegati"
+  },
+  {
+    "selector": ".no-related-msg p",
+    "string": "Nessun incidente o manutenzione collegata a questo disservizio.",
+    "replaceString": "No incidents or maintenance related to this downtime."
   }
 ]
