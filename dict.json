@@ -127,5 +127,29 @@
     "selector": ".update strong",
     "string": "Risolto",
     "replaceString": "Resolved"
+  },
+  {
+    "selector": ".update strong",
+    "string": "Programmata",
+    "replaceString": "Scheduled"
+  },
+  {
+    "selector": ".update strong",
+    "string": "In esecuzione",
+    "replaceString": "In progress"
+  },
+  {
+    "selector": ".update strong",
+    "string": "In analisi",
+    "replaceString": "Investigating"
+  },
+  {
+    "selector": ".update strong",
+    "string": "iscriviti",
+    "replaceString": "subscribe"
+  },
+  {
+    "selector": ".scheduled-maintenances-container .font-largest",
+    "string": "Manutenzione programmata"
   }
 ]
