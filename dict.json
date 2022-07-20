@@ -107,5 +107,20 @@
     "selector": ".no-related-msg p",
     "string": "Nessun incidente o manutenzione collegata a questo disservizio.",
     "replaceString": "No incidents or maintenance related to this downtime."
+  },
+  {
+    "selector": ".updates .update",
+    "string": "Aggiornamento",
+    "replaceString": "Update"
+  },
+  {
+    "selector": ".updates .update",
+    "string": "Monitoraggio",
+    "replaceString": "Monitoring"
+  },
+  {
+    "selector": ".updates .update",
+    "string": "Identificato",
+    "replaceString": "Identified"
   }
 ]
