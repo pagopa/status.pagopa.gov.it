@@ -1,7 +1,23 @@
 [
   {
     "selector": "*[data-component-status='operational'] .component-status",
-    "string": " Operativo "
+    "string": " In funzione "
+  },
+  {
+    "selector": "*[data-component-status='partial_outage'] .component-status",
+    "string": " Interruzione parziale "
+  },
+  {
+    "selector": "*[data-component-status='major_outage'] .component-status",
+    "string": " Fuori servizio "
+  },
+  {
+    "selector": "*[data-component-status='under_maintenance'] .component-status",
+    "string": " In manutenzione "
+  },
+  {
+    "selector": "*[data-component-status='degraded_performance'] .component-status",
+    "string": " Prestazioni ridotte "
   },
   {
     "selector": ".components-uptime-link",
