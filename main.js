@@ -9,9 +9,15 @@ window.addEventListener("load", (event) => {
     {
         selector: ".pagination-container .pagination .current span",
         year: false,
-    }];
+    },
+    {
+        selector: ".month-header .month-name",
+        year: true,
+    }
+];
 
     function translateMonth(text, year) {
+        // translate single month
         const ts = year ? Date.parse(text) : Date.parse(text + " 2022");
         const options = year ? { month: "long", year: "numeric"} : { month: "long"};
         const month = Intl.DateTimeFormat("it-IT", options).format(ts);
