@@ -1,9 +1,18 @@
 window.addEventListener("load", (event) => {
     const dictURL = "https://raw.githubusercontent.com/pagopa/status.pagopa.gov.it/main/dict.json";
     const monthList = ".month .month-title";
+    const elWithMonths = [
+    {
+        selector: ".month .month-title",
+        year: true,
+    },
+    {
+        selector: ".pagination-container .pagination .current span",
+        year: false,
+    }];
 
     function translateMonth(text, year) {
-        const ts = Date.parse(text);
+        const ts = year ? Date.parse(text) : Date.parse(text + " 2022");
         const options = year ? { month: "long", year: "numeric"} : { month: "long"};
         const month = Intl.DateTimeFormat("it-IT", options).format(ts);
         return month;
@@ -52,11 +61,14 @@ window.addEventListener("load", (event) => {
     // translate date in list
     translateDateList();
 
-    // translate history months
-    const monthsInListPage = document.querySelectorAll(monthList);
-    monthsInListPage.forEach( el => {
-        const elText = el.textContent;
-        el.innerHTML = translateMonth(elText, true);
+    // translate months
+    elWithMonths.forEach( elMonth => {
+        const monthsInListPage = document.querySelectorAll(elMonth.selector);
+        monthsInListPage.forEach( el => {
+            const elText = el.textContent;
+            el.innerHTML = translateMonth(elText, elMonth.year);
+        });
+
     });
 
 });
