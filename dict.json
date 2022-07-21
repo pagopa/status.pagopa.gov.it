@@ -39,7 +39,7 @@
   },
   {
     "selector": "[data-var='uptime-percent']",
-    "string": "% attività"
+    "string": "% operatività"
   },
   {
     "selector": ".legend-item-date-range",
@@ -53,7 +53,7 @@
   },
   {
     "selector": "#past-incidents",
-    "string": "Disservizi passati",
+    "string": "Storico disservizi",
     "replaceString": "Past Incidents"
   },
   {
@@ -62,12 +62,12 @@
   },
   {
     "selector": ".status-day p",
-    "string": "Nessun incidente oggi.",
+    "string": "Nessun disservizio oggi.",
     "replaceString": "No incidents reported today."
   },
   {
     "selector": ".status-day p",
-    "string": "Nessun incidente.",
+    "string": "Nessun disservizio.",
     "replaceString": "No incidents reported."
   },
   {
@@ -82,7 +82,7 @@
   },
   {
     "selector": ".no-outages-msg",
-    "string": "Nessun disservizio registrato in questo giorno.",
+    "string": "Nessun blocco per questo giorno.",
     "replaceString": "No downtime recorded on this day."
   },
   {
@@ -91,12 +91,12 @@
   },
   {
     "selector": "#major-outage-group-count .count",
-    "string": "è fuori servizio",
+    "string": "è fuori servizio.",
     "replaceString": " had a major outage."
   },
   {
     "selector": "#partial-outage-group-count .count",
-    "string": " è parzialmente fuori servizio",
+    "string": " è parzialmente fuori servizio.",
     "replaceString": " had a partial outage."
   },
   {
@@ -105,7 +105,7 @@
   },
   {
     "selector": ".no-related-msg p",
-    "string": "Nessun incidente o manutenzione collegata a questo disservizio.",
+    "string": "Nessun disservizio o manutenzione collegati a questo blocco.",
     "replaceString": "No incidents or maintenance related to this downtime."
   },
   {
@@ -167,7 +167,7 @@
   },
   {
     "selector": ".incident-list span",
-    "string": "Nessun disservizio registrato durante questo mese",
+    "string": "Nessun disservizio segnalato durante questo mese",
     "replaceString": "No incidents reported for this month."
   },
   {
