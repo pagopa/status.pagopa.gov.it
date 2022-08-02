@@ -257,8 +257,13 @@
   },
   {
     "selector": ".incident-name .subheader",
-    "string": "Resoconto Manutenzione Programmata per",
-    "replaceString": "Scheduled Maintenance Report for"
+    "string": "Resoconto Manutenzione Programmata",
+    "replaceString": "Scheduled Maintenance"
+  },
+  {
+    "selector": ".incident-name .subheader",
+    "string": "per",
+    "replaceString": "Report for"
   },
   {
     "selector": ".update-timestamp",
@@ -271,7 +276,17 @@
     "replaceString": "Jan"
   },
   {
+    "selector": ".update small",
+    "string": "Gen",
+    "replaceString": "Jan"
+  },
+  {
     "selector": ".update-timestamp",
+    "string": "Mag",
+    "replaceString": "May"
+  },
+  {
+    "selector": ".update small",
     "string": "Mag",
     "replaceString": "May"
   },
@@ -281,7 +296,17 @@
     "replaceString": "Jun"
   },
   {
+    "selector": ".update small",
+    "string": "Giu",
+    "replaceString": "Jun"
+  },
+  {
     "selector": ".update-timestamp",
+    "string": "Lug",
+    "replaceString": "Jul"
+  },
+  {
+    "selector": ".update small",
     "string": "Lug",
     "replaceString": "Jul"
   },
@@ -291,7 +316,17 @@
     "replaceString": "Aug"
   },
   {
+    "selector": ".update small",
+    "string": "Ago",
+    "replaceString": "Aug"
+  },
+  {
     "selector": ".update-timestamp",
+    "string": "Set",
+    "replaceString": "Sep"
+  },
+  {
+    "selector": ".update small",
     "string": "Set",
     "replaceString": "Sep"
   },
@@ -301,7 +336,17 @@
     "replaceString": "Oct"
   },
   {
+    "selector": ".update small",
+    "string": "Ott",
+    "replaceString": "Oct"
+  },
+  {
     "selector": ".update-timestamp",
+    "string": "Dic",
+    "replaceString": "Dec"
+  },
+  {
+    "selector": ".update small",
     "string": "Dic",
     "replaceString": "Dec"
   },
