@@ -257,7 +257,7 @@
   },
   {
     "selector": ".incident-name .subheader",
-    "string": "Rapporto Manutenzione Programmata",
+    "string": "Resoconto Manutenzione Programmata",
     "replaceString": "Scheduled Maintenance"
   },
   {
