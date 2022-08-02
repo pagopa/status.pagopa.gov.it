@@ -114,7 +114,17 @@
     "replaceString": "Update"
   },
   {
+    "selector": ".update-title",
+    "string": "Aggiornamento",
+    "replaceString": "Update"
+  },
+  {
     "selector": ".update strong",
+    "string": "Monitoraggio",
+    "replaceString": "Monitoring"
+  },
+  {
+    "selector": ".update-title",
     "string": "Monitoraggio",
     "replaceString": "Monitoring"
   },
@@ -124,7 +134,17 @@
     "replaceString": "Identified"
   },
   {
+    "selector": ".update-title",
+    "string": "Identificato",
+    "replaceString": "Identified"
+  },
+  {
     "selector": ".update strong",
+    "string": "Risolto",
+    "replaceString": "Resolved"
+  },
+  {
+    "selector": ".update-title",
     "string": "Risolto",
     "replaceString": "Resolved"
   },
@@ -134,7 +154,17 @@
     "replaceString": "Scheduled"
   },
   {
+    "selector": ".update-title",
+    "string": "Programmata",
+    "replaceString": "Scheduled"
+  },
+  {
     "selector": ".update strong",
+    "string": "In esecuzione",
+    "replaceString": "In progress"
+  },
+  {
+    "selector": ".update-title",
     "string": "In esecuzione",
     "replaceString": "In progress"
   },
@@ -144,9 +174,29 @@
     "replaceString": "Investigating"
   },
   {
+    "selector": ".update-title",
+    "string": "Analisi",
+    "replaceString": "Investigating"
+  },
+  {
     "selector": ".update strong",
     "string": "iscriviti",
     "replaceString": "subscribe"
+  },
+  {
+    "selector": ".update-title",
+    "string": "iscriviti",
+    "replaceString": "subscribe"
+  },
+  {
+    "selector": ".update strong",
+    "string": "Completata",
+    "replaceString": "Completed"
+  },
+  {
+    "selector": ".update-title",
+    "string": "Completata",
+    "replaceString": "Completed"
   },
   {
     "selector": ".scheduled-maintenances-container .font-largest",
@@ -174,5 +224,95 @@
     "selector": ".pagination-container .pagination .current",
     "string": "-",
     "replaceString": "to"
+  },
+  {
+    "selector": ".status-day .incident-container .updates-container .update span",
+    "string": "La manutenzione programmata è stata completata.",
+    "replaceString": "The scheduled maintenance has been completed."
+  },
+  {
+    "selector": ".update-body span",
+    "string": "La manutenzione programmata è stata completata.",
+    "replaceString": "The scheduled maintenance has been completed."
+  },
+  {
+    "selector": ".status-day .incident-container .updates-container .update span",
+    "string": "La manutenzione programmata è attualmente in corso. Forniremo aggiornamenti se necessario.",
+    "replaceString": "Scheduled maintenance is currently in progress. We will provide updates as necessary."
+  },
+  {
+    "selector": ".update-body span",
+    "string": "La manutenzione programmata è attualmente in corso. Forniremo aggiornamenti se necessario.",
+    "replaceString": "Scheduled maintenance is currently in progress. We will provide updates as necessary."
+  },
+  {
+    "selector": ".status-day .incident-container .updates-container .update span",
+    "string": "Ci sarà una manutenzione programmata durante questo periodo.",
+    "replaceString": "We will be undergoing scheduled maintenance during this time."
+  },
+  {
+    "selector": ".update-body span",
+    "string": "Ci sarà una manutenzione programmata durante questo periodo.",
+    "replaceString": "We will be undergoing scheduled maintenance during this time."
+  },
+  {
+    "selector": ".incident-name .subheader",
+    "string": "Resoconto Manutenzione Programmata per",
+    "replaceString": "Scheduled Maintenance Report for"
+  },
+  {
+    "selector": ".update-timestamp",
+    "string": "Pubblicato",
+    "replaceString": "Posted"
+  },
+  {
+    "selector": ".update-timestamp",
+    "string": "Gen",
+    "replaceString": "Jan"
+  },
+  {
+    "selector": ".update-timestamp",
+    "string": "Mag",
+    "replaceString": "May"
+  },
+  {
+    "selector": ".update-timestamp",
+    "string": "Giu",
+    "replaceString": "Jun"
+  },
+  {
+    "selector": ".update-timestamp",
+    "string": "Lug",
+    "replaceString": "Jul"
+  },
+  {
+    "selector": ".update-timestamp",
+    "string": "Ago",
+    "replaceString": "Aug"
+  },
+  {
+    "selector": ".update-timestamp",
+    "string": "Set",
+    "replaceString": "Sep"
+  },
+  {
+    "selector": ".update-timestamp",
+    "string": "Ott",
+    "replaceString": "Oct"
+  },
+  {
+    "selector": ".update-timestamp",
+    "string": "Dic",
+    "replaceString": "Dec"
+  },
+  {
+    "selector": ".update-timestamp span",
+    "string": "giorni fa",
+    "replaceString": "days ago"
+  },
+  {
+    "selector": ".components-affected",
+    "string": "Questa  manutenzione programmata interessa:",
+    "replaceString": "This scheduled maintenance affected:"
   }
 ]
