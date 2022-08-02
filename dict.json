@@ -256,12 +256,12 @@
     "replaceString": "We will be undergoing scheduled maintenance during this time."
   },
   {
-    "selector": ".incident-name .subheader",
+    "selector": ".subheader",
     "string": "Resoconto Manutenzione Programmata",
     "replaceString": "Scheduled Maintenance"
   },
   {
-    "selector": ".incident-name .subheader",
+    "selector": ".subheader",
     "string": "per",
     "replaceString": "Report for"
   },
