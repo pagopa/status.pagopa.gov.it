@@ -247,17 +247,17 @@
   },
   {
     "selector": ".status-day .incident-container .updates-container .update span",
-    "string": "Saremo sottoposti a manutenzione programmata durante questo periodo.",
+    "string": "Ci sarà una manutenzione programmata durante questo periodo.",
     "replaceString": "We will be undergoing scheduled maintenance during this time."
   },
   {
     "selector": ".update-body span",
-    "string": "Saremo sottoposti a manutenzione programmata durante questo periodo.",
+    "string": "Ci sarà una manutenzione programmata durante questo periodo.",
     "replaceString": "We will be undergoing scheduled maintenance during this time."
   },
   {
     "selector": ".incident-name .subheader",
-    "string": "Rapporto Manutenzione Programmata per",
+    "string": "Resoconto Manutenzione Programmata per",
     "replaceString": "Scheduled Maintenance Report for"
   },
   {
@@ -312,7 +312,7 @@
   },
   {
     "selector": ".components-affected",
-    "string": "La seguente manutenzione programmata interessa:",
+    "string": "Questa  manutenzione programmata interessa:",
     "replaceString": "This scheduled maintenance affected:"
   }
 ]
