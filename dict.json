@@ -62,6 +62,11 @@
   },
   {
     "selector": ".status-day p",
+    "string": "Disservizio non risolto",
+    "replaceString": "Unresolved incident"
+  },
+  {
+    "selector": ".status-day p",
     "string": "Nessun disservizio oggi.",
     "replaceString": "No incidents reported today."
   },
@@ -199,6 +204,16 @@
     "replaceString": "Completed"
   },
   {
+    "selector": ".update span",
+    "string": "Stiamo lavorando per risolvere il problema",
+    "replaceString": "We are continuing to work on a fix for this issue"
+  },
+  {
+    "selector": ".update-body span",
+    "string": "Stiamo lavorando per risolvere il problema",
+    "replaceString": "We are continuing to work on a fix for this issue"
+  },
+  {
     "selector": ".scheduled-maintenances-container .font-largest",
     "string": "Manutenzione programmata"
   },
@@ -266,9 +281,19 @@
     "replaceString": "Report for"
   },
   {
+    "selector": ".subheader",
+    "string": "Disservizio",
+    "replaceString": "Incident"
+  },
+  {
     "selector": ".update-timestamp",
     "string": "Pubblicato",
     "replaceString": "Posted"
+  },
+  {
+    "selector": ".update-timestamp span",
+    "string": "ore fa",
+    "replaceString": "hours ago"
   },
   {
     "selector": ".update-timestamp",
@@ -359,5 +384,10 @@
     "selector": ".components-affected",
     "string": "Questa  manutenzione programmata interessa:",
     "replaceString": "This scheduled maintenance affected:"
+  },
+  {
+    "selector": ".components-affected",
+    "string": "Questo disservizio riguarda:",
+    "replaceString": "This incident affects:"
   }
 ]
