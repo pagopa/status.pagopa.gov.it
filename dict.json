@@ -38,10 +38,6 @@
     "string": "Tutti i servizi sono operativi"
   },
   {
-    "selector": "[data-var='uptime-percent']",
-    "string": "% operatività"
-  },
-  {
     "selector": ".legend-item-date-range",
     "string": "giorni fa",
     "replaceString": "days ago"
